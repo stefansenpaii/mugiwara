@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script/script.js" defer></script>
+    <link rel="shortcut icon" href="images/hat.png" type="image/x-icon">
+    <title>Mugiwara</title>
+</head>
+<body id="body">
+    <div id="uspesno">
+        <img src="images/check.png" alt="">
+        <p id="us"></p>
+    </div>
+    <div id="showinfo">
+        <div id="prikaz">
+            <img src="" alt="" id="prikazSlika">
+            <div id="prikazinfo">
+                <p id="prikazNaslov"></p>
+
+                <div id="prikazStats">
+                    <p id="prikazRank"></p>
+                    <p id="prikazType"></p>
+                    <p id="prikazEp"></p>
+                    <p id="prikazDate"></p>
+                    <p id="prikazMember"></p>
+                    <p id="prikazScore"></p>
+                </div>
+            
+            </div>
+            <p id="leaver" onclick="closePrikaz()">X</p>
+        </div>
+        
+    </div>
+    <div id = "main">
+        <!--
+            LOGIN
+        -->
+        <div id="login">
+            <img src="images/logo final.png" alt="" id ="slika">
+            <div class="d1" id = "d11">
+                <label for="eou">Email ili Korisnicko ime</label>
+                <input type="text"id="eou" onkeyup="check1()">
+                <div id="wrng">
+                    <p id="inc">Izgleda da je email / korisnicko ime pogresno</p>
+                    <img src="images/wrong3.png" alt="">
+                </div>
+            </div>
+            <div class="d1">
+                <label for="pass">Sifra</label>
+                <input type="password"id="pass" onkeyup="check2()">
+                <img src="images/eye_0001_Layer-0.png" alt="" class="oko">
+                <div id="wrng2">
+                    <p id="inc">Sifra mora sadrzati minimalno 5 karaktera</p>
+                    <img src="images/wrong3.png" alt="" >
+                </div>
+                <p id="noacc" onclick="toReg()">Nemas nalog? Registruj se</p>
+            </div>
+            
+            <button id="lgnbtn" onclick="logujSe()">Login</button>
+            <p id="inc" class="noreg">Neuspesan Login</p>
+            <p id="wlcm">Dobrodosli na Mugiwara!</p>
+        </div>
+    </div>
+    <header>
+        <div id="logopic">
+            <img src="images/logo beli.png" alt="" id="logo" onclick="toPocetna()">
+        </div>
+        <div id = "menu">
+            <p onclick="toPocetna()" id="m1">Pocetna</p>
+            <p onclick="toTop20()" id="m2">Top20</p>
+            <p onclick="toPretraga()" id="m3">Pretraga</p>
+            <div id="sesirce">
+                <img src="images/hat.png" alt="">
+            </div>
+        </div>
+        <div id="nalog">
+            <p><span id="userlog"></span></p>
+            <img src="images/profile.png" alt="" style="width: 40px; height: 40px;" id="prof" onclick="toProfil()">
+        <!--<p style="border-left: 3px solid white; padding-left: 20px;" onclick="izlogujSe()" id="logout">Izloguj se</p>-->
+        </div>
+    </header>
+    <div id="pocetna">
+        <div id="sve">
+            <div id="levo">
+                <div id="mostp">
+                    <p class="naslov">Najpopularniji</p>
+                    <div id="listanajp" class="najp">
+                    </div>
+                </div>
+                <div id="seasonal">
+                    <p class="naslov">Sezonski</p>
+                    <div id="listanajp" class ="sez">
+                    </div>
+                </div>
+                <div id="najom">
+                    <p class="naslov">Najomiljeniji korisnicima</p>
+                    <div id="listanajp" class = "mf">
+                    </div>
+                </div>
+            </div>
+            <div id="desno">
+                <div id="box1" class="pd">
+                    
+                </div>
+                <div id="box1" class="ust">
+                    <p>Uskoro stize</p>
+                    <div id="pd1" class="animePic" style="background-image: url(&quot;images/animes/opm3.jpg&quot;); 
+                    border-top: 2px solid rgb(255, 255, 255);">
+                    <p style="background-color: rgb(139, 3, 39);" 
+                    onclick='showInfo("images/animes/opm3.jpg","One Punch Man 3","?","TV","?","Datum: ?","220248","?")'>
+                    One Punch Man 3</p>
+                    </div>
+                </div>
+                <div id="box1" class="najg">
+                    <p>Najgledaniji meseca</p>
+                    <div id="pd1" class="animePic" style="background-image: url(&quot;images/animes/kono3.jpg&quot;); 
+                    border-top: 2px solid rgb(255, 255, 255);">
+                    <p style="background-color: rgb(139, 3, 39);" id="kss">Kono Subarashii Sekai ni Shukufuku wo! 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="stats">
+            <p id="st">Statistika</p>
+            <div id="podaci">
+                <div class="i1">
+                    <p>Broj registrovanih korisnika</p>
+                    <img src="images/user beli.png" alt="">
+                    <p class="doletxt" id="brr"></p>
+                </div>
+                <div class="i1">
+                    <p>Broj online korisnika</p>
+                    <img src="images/user online beli.png" alt="">
+                    <p class="doletxt">1</p>
+                </div>
+                <div class="i1">
+                    <p>Broj dodatih animea</p>
+                    <img src="images/books.png" alt="">
+                    <p class="doletxt" id="brd">27</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="top20">
+        <div id="txt20">Top20</div>
+        <div id="sviA">
+            LOADING...
+        </div>
+    </div>
+
+    <div id="pretraga">
+        <div id="search">
+            <input type="text" name="" id="searchbar" onkeyup="fillSearch()" placeholder="Pretrazi po imenu...">
+            <select name="" id="tipovi" onchange="fillSearch()">
+                <option value="all">Svi</option>
+            </select>
+        </div>
+        <div id="results">
+            LOADING...
+        </div>
+    </div>
+
+    <div id="profil">
+        <div id="profilbar">
+            <p id="loguser"></p>
+            <img src="images/profile.png" alt="" id="profslika">
+            <label for="fileload">
+                <span>Izaberite novu sliku</span>
+            </label>
+            <input type="file" name="" id="fileload">
+            <div id="op1" class="looks">
+                Moja Anime Lista
+            </div>
+            <div id="op2" class="looks">
+                <img src="images/settings icon.png" alt="" id="seticon">
+                 Podesavanja
+                
+            </div>
+            <label id="logoutbtn" onclick="izlogujSe()">Izloguj se</label>
+        </div>
+        <div id="show">
+            <div id="lista">
+                <p id="mal">Moja Anime Lista</p>
+                <div id="maldiv">
+                </div>
+            </div>
+            <div id="pod">
+                <p id="podtxt">Podesavanja</p>
+                <div id="set">
+                    <div id="set1" class="setlook">
+                        <label for="ime2">Ime</label>
+                        <input type="text"id="ime2">
+                    </div>
+                    <div id="set2" class="setlook">
+                        <label for="prezime2">Prezime</label>
+                        <input type="text"id="prezime2">
+                    </div>
+                    <div id="set3" class="setlook">
+                        <label for="username2">Korisnicko ime</label>
+                        <input type="text"id="username2">
+                    </div>
+                    <div id="set4" class="setlook">
+                        <label for="email2">Email</label>
+                        <input type="text"id="email2">
+                    </div>
+                    <div id="set5" class="setlook">
+                        <label for="pass2">Sifra</label>
+                        <input type="password"id="pass2">
+                        <img src="images/eye_0001_Layer-0.png" alt="" class="oko2" id="oko2">
+                    </div>
+                    <div id="btns">
+                        <p id="save" onclick="saved()" >Sacuvaj</p>
+                        <p id="edit" onclick="uredi()">Uredi</p>
+                        <p id="nsp">Neuspesno sacuvane promene</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img src="images/logo beli.png" alt="" onclick="toPocetna()">
+        <div id="mdole">
+            <p onclick="toPocetna()">Pocetna</p>
+            <p onclick="toTop20()">Top20</p>
+            <p onclick="toPretraga()" style="border: 0; padding: 0;">Pretraga</p>
+        </div>
+        <p id="rights">Mugiwara©2024 | Sva Prava Zadrzana. | Stefan Grujicic 40/2022</p>
+    </footer>
+</body>
+</html>

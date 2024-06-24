@@ -1,0 +1,332 @@
+<animes>
+    <anime>
+        <rank>1</rank>
+        <title>One Piece</title>
+        <type>TV</type>
+        <episodes>?</episodes>
+        <startDate>Oct 1999</startDate>
+        <endDate></endDate>
+        <members>2370115</members>
+        <score>9.55</score>
+        <link>images/animes/op.jpg</link>
+    </anime>
+    <anime>
+        <rank>2</rank>
+        <title>Ansatsu Kyoushitsu</title>
+        <type>TV</type>
+        <episodes>22</episodes>
+        <startDate>Jan 2015</startDate>
+        <endDate>Jun 2015</endDate>
+        <members>2026486</members>
+        <score>9.32</score>
+        <link>images/animes/as.jpg</link>
+    </anime>
+    <anime>
+        <rank>3</rank>
+        <title>Fullmetal Alchemist: Brotherhood</title>
+        <type>TV</type>
+        <episodes>64</episodes>
+        <startDate>Apr 2009</startDate>
+        <endDate>Jul 2010</endDate>
+        <members>3072575</members>
+        <score>9.14</score>
+        <link>images/animes/fma.jpg</link>
+    </anime>
+    <anime>
+        <rank>4</rank>
+        <title>Steins;Gate</title>
+        <type>TV</type>
+        <episodes>24</episodes>
+        <startDate>Apr 2011</startDate>
+        <endDate>Sep 2011</endDate>
+        <members>3049235</members>
+        <score>9.11</score>
+        <link>images/animes/sg.jpg</link>
+    </anime>
+    <anime>
+        <rank>5</rank>
+        <title>Shingeki no Kyojin: The Final Season - Kanketsu-hen</title>
+        <type>TV Special</type>
+        <episodes>2</episodes>
+        <startDate>Mar 2023</startDate>
+        <endDate>Nov 2023</endDate>
+        <members>653319</members>
+        <score>8.92</score>
+        <link>images/animes/aot4.jpg</link>
+    </anime>
+    <anime>
+        <rank>6</rank>
+        <title>3-gatsu no Lion 2nd Season</title>
+        <type>TV</type>
+        <episodes>22</episodes>
+        <startDate>Oct 2017</startDate>
+        <endDate>Mar 2018</endDate>
+        <members>403874</members>
+        <score>8.92</score>
+        <link>images/animes/3l.jpg</link>
+    </anime>
+    <anime>
+        <rank>7</rank>
+        <title>Code Geass: Hangyaku no Lelouch R2</title>
+        <type>TV</type>
+        <episodes>25</episodes>
+        <startDate>Apr 2008</startDate>
+        <endDate>Sep 2008</endDate>
+        <members>1788401</members>
+        <score>8.91</score>
+        <link>images/animes/cg2.jpg</link>
+    </anime>
+    <anime>
+        <rank>8</rank>
+        <title>Kusuriya no Hitorigoto</title>
+        <type>TV</type>
+        <episodes>24</episodes>
+        <startDate>Oct 2023</startDate>
+        <endDate>Mar 2024</endDate>
+        <members>408381</members>
+        <score>8.91</score>
+        <link>images/animes/kusur.jpg</link>
+    </anime>
+    <anime>
+        <rank>9</rank>
+        <title>Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare</title>
+        <type>Movie</type>
+        <episodes>1</episodes>
+        <startDate>Jul 2013</startDate>
+        <endDate>Jul 2013</endDate>
+        <members>241783</members>
+        <score>8.90</score>
+        <link>images/animes/gm2.jpg</link>
+    </anime>
+    <anime>
+        <rank>10</rank>
+        <title>Monster</title>
+        <type>TV</type>
+        <episodes>74</episodes>
+        <startDate>Apr 2004</startDate>
+        <endDate>Sep 2005</endDate>
+        <members>1128197</members>
+        <score>8.88</score>
+        <link>images/animes/kajbucu.jpg</link>
+    </anime>
+    <anime>
+        <rank>11</rank>
+        <title>Gintama.: Shirogane no Tamashii-hen - Kouhan-sen</title>
+        <type>TV</type>
+        <episodes>14</episodes>
+        <startDate>Jul 2018</startDate>
+        <endDate>Oct 2018</endDate>
+        <members>200009</members>
+        <score>8.88</score>
+        <link>images/animes/gish.jpg</link>
+    </anime>
+    <anime>
+        <rank>12</rank>
+        <title>Violet Evergarden Movie</title>
+        <type>Movie</type>
+        <episodes>1</episodes>
+        <startDate>Sep 2020</startDate>
+        <endDate>Sep 2020</endDate>
+        <members>615457</members>
+        <score>8.87</score>
+        <link>images/animes/vem.jpg</link>
+    </anime>
+    <anime>
+        <rank>13</rank>
+        <title>Owarimonogatari 2nd Season</title>
+        <type>TV Special</type>
+        <episodes>7</episodes>
+        <startDate>Aug 2017</startDate>
+        <endDate>Aug 2017</endDate>
+        <members>400860</members>
+        <score>8.87</score>
+        <link>images/animes/owa.jpg</link>
+    </anime>
+    <anime>
+        <rank>14</rank>
+        <title>Kimi no Na wa.</title>
+        <type>Movie</type>
+        <episodes>1</episodes>
+        <startDate>Aug 2016</startDate>
+        <endDate>Aug 2016</endDate>
+        <members>2754206</members>
+        <score>8.84</score>
+        <link>images/animes/kimino.jpg</link>
+    </anime>
+    <anime>
+        <rank>15</rank>
+        <title>Jujutsu Kaisen 2nd Season</title>
+        <type>TV</type>
+        <episodes>23</episodes>
+        <startDate>Jul 2023</startDate>
+        <endDate>Dec 2023</endDate>
+        <members>947777</members>
+        <score>8.83</score>
+        <link>images/animes/j2.jpg</link>
+    </anime>
+    <anime>
+        <rank>16</rank>
+        <title>Kingdom 3rd Season</title>
+        <type>TV</type>
+        <episodes>26</episodes>
+        <startDate>Apr 2020</startDate>
+        <endDate>Oct 2021</endDate>
+        <members>104482</members>
+        <score>8.82</score>
+        <link>images/animes/k3.jpg</link>
+    </anime>
+    <anime>
+        <rank>17</rank>
+        <title>Gintama.: Shirogane no Tamashii-hen</title>
+        <type>TV</type>
+        <episodes>12</episodes>
+        <startDate>Jan 2018</startDate>
+        <endDate>Mar 2018</endDate>
+        <members>214041</members>
+        <score>8.81</score>
+        <link>images/animes/gintatacka.jpg</link>
+    </anime>
+    <anime>
+        <rank>18</rank>
+        <title>Sousou no Frieren</title>
+        <type>TV</type>
+        <episodes>28</episodes>
+        <startDate>Sep 2023</startDate>
+        <endDate>Mar 2024</endDate>
+        <members>761851</members>
+        <score>8.80</score>
+        <link>images/animes/s1.jpg</link>
+    </anime>
+    <anime>
+        <rank>19</rank>
+        <title>Clannad: After Story</title>
+        <type>TV</type>
+        <episodes>24</episodes>
+        <startDate>Oct 2008</startDate>
+        <endDate>Mar 2009</endDate>
+        <members>1197883</members>
+        <score>8.60</score>
+        <link>images/animes/cla.jpg</link>
+    </anime>
+    <anime>
+        <rank>20</rank>
+        <title>Koe no Katachi</title>
+        <type>Movie</type>
+        <episodes>1</episodes>
+        <startDate>Sep 2016</startDate>
+        <endDate>Sep 2016</endDate>
+        <members>2342028</members>
+        <score>8.58</score>
+        <link>images/animes/kimi.jpg</link>
+    </anime>
+    <anime>
+        <rank>21</rank>
+        <title>Kono Subarashii Sekai ni Shukufuku wo! 3</title>
+        <type>TV</type>
+        <episodes>11</episodes>
+        <startDate>Apr 2024</startDate>
+        <endDate>Jun 2024</endDate>
+        <members>357911</members>
+        <score>8.48</score>
+        <link>images/animes/kono3.jpg</link>
+    </anime>
+    <anime>
+        <rank>22</rank>
+        <title>Kimetsu no Yaiba: Hashira Geiko-hen</title>
+        <type>TV</type>
+        <episodes>?</episodes>
+        <startDate>May 2024</startDate>
+        <endDate>?</endDate>
+        <members>341957</members>
+        <score>8.31</score>
+        <link>images/animes/d3.jpg</link>
+    </anime>
+    <anime>
+        <rank>23</rank>
+        <title>Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2</title>
+        <type>TV</type>
+        <episodes>12</episodes>
+        <startDate>Apr 2024</startDate>
+        <endDate>?</endDate>
+        <members>291682</members>
+        <score>8.30</score>
+        <link>images/animes/m3.jpg</link>
+    </anime>
+    <anime>
+        <rank>24</rank>
+        <title>Tensei shitara Slime Datta Ken 3rd Season</title>
+        <type>TV</type>
+        <episodes>24</episodes>
+        <startDate>Apr 2024</startDate>
+        <endDate>?</endDate>
+        <members>280343</members>
+        <score>8.21</score>
+        <link>images/animes/s3.jpg</link>
+    </anime>
+    <anime>
+        <rank>25</rank>
+        <title>Kaijuu 8-gou</title>
+        <type>TV</type>
+        <episodes>12</episodes>
+        <startDate>Apr 2024</startDate>
+        <endDate>?</endDate>
+        <members>275843</members>
+        <score>8.20</score>
+        <link>images/animes/kai.jpg</link>
+    </anime>
+    <anime>
+        <rank>3</rank>
+        <title>Fullmetal Alchemist: Brotherhood</title>
+        <type>TV</type>
+        <episodes>64</episodes>
+        <startDate>Apr 2009</startDate>
+        <endDate>Jul 2010</endDate>
+        <members>3072575</members>
+        <score>9.14</score>
+        <link>images/animes/fma.jpg</link>
+    </anime>
+    <anime>
+        <rank>1</rank>
+        <title>One Piece</title>
+        <type>TV</type>
+        <episodes>?</episodes>
+        <startDate>Oct 1999</startDate>
+        <endDate></endDate>
+        <members>2370115</members>
+        <score>9.55</score>
+        <link>images/animes/op.jpg</link>
+    </anime>
+    <anime>
+        <rank>28</rank>
+        <title>Hunter x Hunter (2011)</title>
+        <type>TV</type>
+        <episodes>148</episodes>
+        <startDate>Oct 2011</startDate>
+        <endDate>Sep 2014</endDate>
+        <members>2847010</members>
+        <score>8.03</score>
+        <link>images/animes/hxh.jpg</link>
+    </anime>
+    <anime>
+        <rank>4</rank>
+        <title>Steins;Gate</title>
+        <type>TV</type>
+        <episodes>24</episodes>
+        <startDate>Apr 2011</startDate>
+        <endDate>Sep 2011</endDate>
+        <members>3049235</members>
+        <score>9.11</score>
+        <link>images/animes/sg.jpg</link>
+    </anime>
+    <anime>
+        <rank>30</rank>
+        <title>Death Note</title>
+        <type>TV</type>
+        <episodes>37</episodes>
+        <startDate>Oct 2006</startDate>
+        <endDate>Jun 2007</endDate>
+        <members>3917253</members>
+        <score>8.01</score>
+        <link>images/animes/dn.jpg</link>
+    </anime>
+</animes>
